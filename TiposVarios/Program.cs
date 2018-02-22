@@ -24,6 +24,7 @@ namespace TiposVarios
             Console.WriteLine(v);
             Console.WriteLine(x);
             Console.ReadKey();
+            Convert.to
         }
     }
 }
