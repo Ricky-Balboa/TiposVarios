@@ -11,11 +11,15 @@ namespace TiposVarios
         static void Main(string[] args)
         {
             string s = "Isto e uma string normal";
-            string t = @"isto éuma string verbatim posso usar / sem chatiçes ";
+            string t = @"isto é uma string verbatim posso usar / sem chatiçes ";
             string v = "\" \u00A9\"";
-           Console.WriteLine(s);
+            string x = "gosto " + "de " + "gelado";
+            x += "no verao";
+            
+            Console.WriteLine(s);
             Console.WriteLine(t);
             Console.WriteLine(v);
+            Console.WriteLine(x);
             Console.ReadKey();
         }
     }
